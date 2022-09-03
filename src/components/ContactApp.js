@@ -11,6 +11,7 @@ class ContactApp extends React.Component {
     };
 
     this.onDeleteHandler = this.onDeleteHandler.bind(this);
+    this.onAddContactHandler = this.onAddContactHandler.bind(this);
   }
 
   onDeleteHandler(id) {
